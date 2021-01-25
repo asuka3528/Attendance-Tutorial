@@ -1,2 +1,12 @@
-<h1>勤怠管理システム</h1>
-<p>このアプリケーションでは、登録されたユーザーの勤怠情報を閲覧・登録・編集することができます。</p>
+<% provide(:title, "top") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | attendanceApp</title>
+  </head>
+  <body>
+    <% provide(:title, "") %>
+    <h1>勤怠管理システム</h1>
+    <p>このアプリケーションでは、登録されたユーザーの勤怠情報を閲覧・登録・編集することができます。</p>
+  </body>
+</html>
